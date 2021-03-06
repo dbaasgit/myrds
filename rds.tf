@@ -19,7 +19,7 @@ terraform {
   backend "s3" {
     # Replace this with your bucket name!
     bucket         = "terra-backend-bkt"
-    key            = "global/s3/v2/terraform.tfstate"
+    key            = "global/s3/v3/terraform.tfstate"
     region         = "us-east-2"
     # Replace this with your DynamoDB table name!
     dynamodb_table = "terraform-lock-db-test"
