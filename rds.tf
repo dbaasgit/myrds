@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_db_instance" "rds_create" {
-  identifier = "mysql-test-snap"
+  identifier = "mysql-test-jenkins"
   allocated_storage    = 20
   storage_type         = "gp2"
   engine               = "mysql"
